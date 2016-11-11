@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>CARS</title>
+  </head>
+
+  <body>
+    <a href="/">&lt; Back</a>
+    <h1>CARS</h1>
+
+    {% for car in cars %}
+        <li>{{ car.name }}</li>
+    {% endfor %}
+
+    <form method="POST" action=""> 
+      <label>New car:</label>
+      <input type="text" name="name" />
+      <input type="submit" name="save" value="Save" />
+    </form>
+  </body>
+</html>

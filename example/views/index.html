@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Index</title>
+  </head>
+
+  <body>
+    <h1>Welcome to Macchiato</h1>
+
+    <ul>
+    {% for key, link in links %}
+        <a href="{{ link }}">{{ key }}</a></li>
+    {% endfor %}
+    </ul>
+  </body>
+</html>

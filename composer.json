@@ -1,0 +1,27 @@
+{
+    "name": "macchiatophp/macchiato",
+    "authors": [
+        {
+            "name": "German Lena",
+            "email": "german.lena@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "symfony/http-kernel": "^2.1",
+        "symfony/routing": "^2.1",
+        "silpion/stack-logger": "^1.0",
+        "psr/log": "^1.0",
+        "twig/twig": "^1.24",
+        "doctrine/orm": "^2.5",
+        "macchiatophp/di": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MacchiatoPHP\\Macchiato\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/macchiato"
+    ]
+}
